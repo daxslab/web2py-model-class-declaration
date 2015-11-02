@@ -9,7 +9,7 @@ This plugin adds pyDAL weppy class-bassed model declaration to web2py
 
 2- Import plugin in the db.py file (before the DAL() call):
 
-    from plugin_dal_class_declaration.dal.apis import *
-    from plugin_dal_class_declaration.dal import DAL, Model, Field
+    from plugin_model_class_declaration.dal.apis import *
+    from plugin_model_class_declaration.dal import DAL, Model, Field
     
 3- Use the weppy table definition syntax (http://weppy.org/docs/0.5/dal)
